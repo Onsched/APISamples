@@ -2,7 +2,7 @@
   "name": "onsched-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://onsched.github.io/APISamples/react",
+  "homepage": "https://onsched.github.io/APISamples",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "oidc-client": "^1.4.1",

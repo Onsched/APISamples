@@ -32,8 +32,8 @@ class App extends Component {
     var settings = {
       authority: 'https://stage-identity.onsched.com',
       client_id: 'Company.20.js',
-      redirect_uri: window.location.origin,
-      post_logout_redirect_uri: window.location.origin,
+      redirect_uri: window.location.href,
+      post_logout_redirect_uri: window.location.href,
       response_type: 'id_token token',
       scope: 'openid OnSchedApi cid.20',
 
