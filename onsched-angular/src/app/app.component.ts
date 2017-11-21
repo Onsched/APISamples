@@ -64,8 +64,8 @@ export class AppComponent implements OnInit {
         }
       }).then(res => {
         // This is what the call returns
-        this.tokenData = res.obj.data;
-        console.log(this.tokenData);
+        this.tokenData = res.obj;
+        console.log(res);
       });
     });
   }
