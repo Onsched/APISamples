@@ -56,7 +56,7 @@ class App extends Component {
         <button onClick={_ => this.haveToken()}>Use Token</button>
         <div className="App-intro">
           Access Token
-          {this.state.accessToken}
+          <p>{this.state.accessToken}</p>
         </div>
         <div className="App-intro">
           Without Token
