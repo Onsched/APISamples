@@ -31,11 +31,11 @@ class App extends Component {
 
     var settings = {
       authority: 'https://stage-identity.onsched.com',
-      client_id: 'Company.20.js',
+      client_id: 'DemoUser',
       redirect_uri: window.location.href,
       post_logout_redirect_uri: window.location.href,
       response_type: 'id_token token',
-      scope: 'openid OnSchedApi cid.20',
+      scope: 'openid OnSchedApi',
 
       filterProtocolClaims: true,
       loadUserInfo: true
@@ -54,6 +54,10 @@ class App extends Component {
         </header>
         <button onClick={_ => this.signin()}>Login</button>
         <button onClick={_ => this.haveToken()}>Use Token</button>
+        <div className="App-intro">
+          Access Token
+          {this.state.accessToken}
+        </div>
         <div className="App-intro">
           Without Token
           <ul>{data.map((item, index) => <li key={index}>{item.name}</li>)}</ul>
