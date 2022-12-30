@@ -10,7 +10,7 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17",
-    "swagger-client": "^3.3.4"
+    "swagger-client": "^3.18.5"
   },
   "scripts": {
     "start": "react-scripts start",
